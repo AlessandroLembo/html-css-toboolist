@@ -9,8 +9,10 @@
 /* General */
 body{
     background-color: rgb(240, 240, 240);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
+
+/* Intestazione della pagina */
 
 #intestazione {
     height: 60px;
@@ -29,6 +31,8 @@ h1{
     vertical-align: middle;
 }
 
+/* Intestazione della card */
+
 .card{
     width: 55%;
     background-color: white;
@@ -42,10 +46,15 @@ h1{
     padding-left: 20px;
 }
 
+/* corpo della card */
+
 .corpo{
     height: 450px;
+    padding-left: 50px;
+    margin-top: 20px;
 }
 
+/* section button */
 #add_task, #add_section{
     vertical-align: middle;
     padding: 5px;
@@ -60,5 +69,20 @@ h1{
 #add_section{
     border: 1px solid rgb(112, 112, 112);
 }
+
+/* section list */
+
+ul{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+li{
+    margin-top: 5px;
+    
+}
+
+
 
 
