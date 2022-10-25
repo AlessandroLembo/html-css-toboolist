@@ -29,3 +29,17 @@ h1{
     vertical-align: middle;
 }
 
+.card{
+    width: 55%;
+    background-color: white;
+    margin: 35px auto;
+}
+
+.added_elements{
+    height: 40px;
+    border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+.corpo{
+    height: 450px;
+}
