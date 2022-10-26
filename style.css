@@ -29,6 +29,8 @@ body{
 h1{
     display: inline;
     vertical-align: middle;
+    font-size: 40px;
+    font-weight: 400px;
 }
 
 /* Intestazione della card */
@@ -73,16 +75,15 @@ h1{
 /* section list */
 
 ul{
-    margin-top: 20px;
     margin-bottom: 40px;
     list-style-type: none;
 }
 
 li{
-    margin-top: 5px;
-    
+    margin-top: 10px;
 }
 
+/* stile entità */
 .compito{
     width: 17px;
     height: 17px;
@@ -103,16 +104,38 @@ li{
     color: red;
 }
 
+/* stile della label */
 .label{
     border-radius: 10px;
     color: white;
     padding: 5px;
+    margin-left: 3px;
     font-size: 10px;
     vertical-align: middle;
 }
 
+/* colori delle label */
 .dodger{
     background-color: dodgerblue;
 }
 
+.darkviolet{
+    background-color: darkviolet;
+}
+
+.mediumgreen{
+    background-color: mediumseagreen;
+}
+
+.orange{
+    background-color: darkorange;
+}
+
+.hotpink{
+     background-color: hotpink;
+}
+
+.springreen{
+    background-color: springgreen;
+}
 
