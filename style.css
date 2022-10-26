@@ -9,7 +9,7 @@
 /* General */
 body{
     background-color: rgb(240, 240, 240);
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Intestazione della pagina */
@@ -27,7 +27,7 @@ body{
 }
 
 h1{
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
 }
 
@@ -46,14 +46,6 @@ h1{
     padding-left: 20px;
 }
 
-/* corpo della card */
-
-.corpo{
-    height: 450px;
-    padding-left: 50px;
-    margin-top: 20px;
-}
-
 /* section button */
 #add_task, #add_section{
     vertical-align: middle;
@@ -70,12 +62,20 @@ h1{
     border: 1px solid rgb(112, 112, 112);
 }
 
+/* corpo della card */
+
+.corpo{
+    height: 450px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
 /* section list */
 
 ul{
     margin-top: 20px;
     margin-bottom: 40px;
-    margin-left: 20px;
+    list-style-type: none;
 }
 
 li{
@@ -83,6 +83,36 @@ li{
     
 }
 
+.compito{
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.eseguito{
+    border: 1px solid currentColor;
+    color: green;
+}
+
+.non_eseguito{
+    border: 1px solid currentColor;
+    color: red;
+}
+
+.label{
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.dodger{
+    background-color: dodgerblue;
+}
 
 
